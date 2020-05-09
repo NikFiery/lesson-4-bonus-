@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box ;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    border: black 5px solid;
+    z-index: 1;
+    
+}
+                         /**************CIRCLE*********/
+.circle {
+    width: 27%;
+    height: 27%;
+    background: #ee220c;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute ;
+
+}
+
+.circle:hover {
+    z-index: 2;
+}
+
+.one {
+top: 10%;
+left: 10%;
+}
+
+.one:hover {
+    background: linear-gradient(to bottom right, #ff0000 0%, #ffff00 99%);
+}
+
+.two {
+    top: 10%;
+    right: 10%;
+}
+
+.two:hover {
+    background: linear-gradient(to bottom left, #0066ff 0%, #ffff00 92%);
+}
+
+.three {
+    bottom: 10%;
+    left: 10%;
+}
+
+.three:hover {
+    background: linear-gradient(to top right, #ff3300 0%, #0033cc 93%);
+}
+
+.four {
+    bottom: 10%;
+    right: 10%;
+}
+
+.four:hover {
+    background: linear-gradient(to top left, #ccffff 0%, #ff3300 97%);
+}
+
+                          /***********SQUARE********/
+.square {
+    width: 55%;
+    height: 55%;
+    background: #00a2ff;
+    position: absolute;
+    top: 22.5%;
+    left: 22.5%;
+}
+
+.square:hover {
+    z-index: 2;
+    background: linear-gradient(to bottom, #ff3300 64%, #66ff33 72%);
+}
+
+.square__small {
+    width: 30%;
+    height: 30%;
+    background: #f8ba00;
+    position: absolute;
+    border-radius: 20%;
+    top: 35%;
+    left: 35%;
+
+}
